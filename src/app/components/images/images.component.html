@@ -1,0 +1,46 @@
+
+  <mat-toolbar>
+    <span>ecostas app</span>
+    <span class="example-spacer"></span>
+    <mat-button-toggle-group #group="matButtonToggleGroup">
+      <mat-button-toggle value="left" aria-label="Text align left" (click)="changeDisplay(1)">
+        <mat-icon>list</mat-icon>
+      </mat-button-toggle>
+      <mat-button-toggle value="center" aria-label="Text align center" (click)="changeDisplay(2)">
+        <mat-icon>grid_on</mat-icon>
+      </mat-button-toggle>
+    </mat-button-toggle-group>
+ </mat-toolbar>
+
+
+<div class="container emargins">
+  <app-spinner></app-spinner>
+	<div class="row" *ngIf="display === 1;else list_content">
+    <mat-selection-list #image [multiple]="false">
+      <mat-list-option *ngFor="let image of images" [routerLink]="['/image',image.id]" [value]="image">
+        {{image.id}} - {{image.fullName}}
+      </mat-list-option>
+    </mat-selection-list>
+	</div>
+
+	<ng-template #list_content>
+    <mat-grid-list [cols]="breakpoint" rowHeight="500px" gutterSize="15px" (window:resize)="onResize()">
+      <mat-grid-tile *ngFor="let image of images"  >
+        <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>{{image.title}}</mat-card-title>
+          <mat-card-subtitle><small></small></mat-card-subtitle>
+          <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image class="rounded emaxHeight" src="{{image.imageUrl}}" alt="Photo">
+        <mat-card-content>
+        </mat-card-content>
+        <mat-card-actions>
+          <mat-button-toggle mat-button [routerLink]="['/image',image.id]" [@changeState]="currentState">DETAILS</mat-button-toggle>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list> 
+	</ng-template>
+
+</div>

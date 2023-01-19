@@ -1,0 +1,41 @@
+
+<app-spinner></app-spinner>
+<div class="container mt-5">
+    <div *ngIf="image" class="row animate__animated animate__bounce animate__fadeIn">
+    <mat-card class="example-card">
+        <mat-card-header>
+        <div mat-card-avatar></div>
+        <mat-card-title>{{image.title}}</mat-card-title>
+        <mat-card-subtitle><small></small></mat-card-subtitle>
+        <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image class="rounded emaxHeight" src="{{image.imageUrl}}" alt="Photo">
+        <mat-card-content>
+        </mat-card-content>
+        <mat-card-actions>
+            <div>
+              <mat-button-toggle  mat-button (click)="accordion.openAll()" >SHOW ALL DETAILS</mat-button-toggle>
+              <mat-button-toggle  mat-button class="e-pull-r" routerLink="/" >BACK</mat-button-toggle>
+            </div>
+        </mat-card-actions>
+        <mat-accordion class="example-headers-align" multi>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Details
+                </mat-panel-title>
+                <mat-panel-description>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <ul>
+                <li><small><b>id:</b> {{image.id}}</small></li>
+                <li><small><b>Full name:</b> {{image.fullName}}</small></li>
+                <li><small><b>Name:</b> {{image.firstName}}</small></li>
+                <li><small><b>Lastname:</b> {{image.lastName}}</small></li>
+                <li><small><b>Family:</b> {{image.family}}</small></li>
+              </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </mat-card>
+    </div>
+</div>
