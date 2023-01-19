@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1674159803264,
-  "index": "/ecostasm-pwa/index.html",
+  "timestamp": 1674160257609,
+  "index": "/ecostas-pwa.github.io/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/ecostasm-pwa/favicon.ico",
-        "/ecostasm-pwa/index.html",
-        "/ecostasm-pwa/main.e7d291f31ea44c7c.js",
-        "/ecostasm-pwa/manifest.webmanifest",
-        "/ecostasm-pwa/polyfills.710abeeb7e73af26.js",
-        "/ecostasm-pwa/runtime.dc9b9de644c9960f.js",
-        "/ecostasm-pwa/styles.f5d630ac06784ae8.css"
+        "/ecostas-pwa.github.io/favicon.ico",
+        "/ecostas-pwa.github.io/index.html",
+        "/ecostas-pwa.github.io/main.e7d291f31ea44c7c.js",
+        "/ecostas-pwa.github.io/manifest.webmanifest",
+        "/ecostas-pwa.github.io/polyfills.710abeeb7e73af26.js",
+        "/ecostas-pwa.github.io/runtime.dc9b9de644c9960f.js",
+        "/ecostas-pwa.github.io/styles.f5d630ac06784ae8.css"
       ],
       "patterns": [
         "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.2\\/dist\\/css\\/bootstrap\\.min\\.css"
@@ -31,15 +31,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "/ecostasm-pwa/assets/css/animate.css",
-        "/ecostasm-pwa/assets/icons/icon-128x128.png",
-        "/ecostasm-pwa/assets/icons/icon-144x144.png",
-        "/ecostasm-pwa/assets/icons/icon-152x152.png",
-        "/ecostasm-pwa/assets/icons/icon-192x192.png",
-        "/ecostasm-pwa/assets/icons/icon-384x384.png",
-        "/ecostasm-pwa/assets/icons/icon-512x512.png",
-        "/ecostasm-pwa/assets/icons/icon-72x72.png",
-        "/ecostasm-pwa/assets/icons/icon-96x96.png"
+        "/ecostas-pwa.github.io/assets/css/animate.css",
+        "/ecostas-pwa.github.io/assets/icons/icon-128x128.png",
+        "/ecostas-pwa.github.io/assets/icons/icon-144x144.png",
+        "/ecostas-pwa.github.io/assets/icons/icon-152x152.png",
+        "/ecostas-pwa.github.io/assets/icons/icon-192x192.png",
+        "/ecostas-pwa.github.io/assets/icons/icon-384x384.png",
+        "/ecostas-pwa.github.io/assets/icons/icon-512x512.png",
+        "/ecostas-pwa.github.io/assets/icons/icon-72x72.png",
+        "/ecostas-pwa.github.io/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -61,22 +61,22 @@
     }
   ],
   "hashTable": {
-    "/ecostasm-pwa/assets/css/animate.css": "bc96496831f4df311443b8e3d76cfc17db53a988",
-    "/ecostasm-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/ecostasm-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/ecostasm-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/ecostasm-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/ecostasm-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/ecostasm-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/ecostasm-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/ecostasm-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/ecostasm-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/ecostasm-pwa/index.html": "dbf1089870d2fa0a65a8d7d37f443626a7462721",
-    "/ecostasm-pwa/main.e7d291f31ea44c7c.js": "f14f6eb0d8bd37dba6650337da4d570a1c71edee",
-    "/ecostasm-pwa/manifest.webmanifest": "6db92389a88fec6cba9b14a34275c175bf4c3ed2",
-    "/ecostasm-pwa/polyfills.710abeeb7e73af26.js": "32c8444963564ade96887e2fed3a6d4fb7399c33",
-    "/ecostasm-pwa/runtime.dc9b9de644c9960f.js": "5dae95dd0b10e0d197edd60510ade0da32e46b43",
-    "/ecostasm-pwa/styles.f5d630ac06784ae8.css": "cc153e4af5e81600915b44e1968c667823ad905b"
+    "/ecostas-pwa.github.io/assets/css/animate.css": "bc96496831f4df311443b8e3d76cfc17db53a988",
+    "/ecostas-pwa.github.io/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/ecostas-pwa.github.io/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/ecostas-pwa.github.io/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/ecostas-pwa.github.io/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/ecostas-pwa.github.io/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/ecostas-pwa.github.io/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/ecostas-pwa.github.io/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/ecostas-pwa.github.io/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/ecostas-pwa.github.io/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/ecostas-pwa.github.io/index.html": "a32dd52758b6811d27178cbb3be8d9a459a44040",
+    "/ecostas-pwa.github.io/main.e7d291f31ea44c7c.js": "f14f6eb0d8bd37dba6650337da4d570a1c71edee",
+    "/ecostas-pwa.github.io/manifest.webmanifest": "6db92389a88fec6cba9b14a34275c175bf4c3ed2",
+    "/ecostas-pwa.github.io/polyfills.710abeeb7e73af26.js": "32c8444963564ade96887e2fed3a6d4fb7399c33",
+    "/ecostas-pwa.github.io/runtime.dc9b9de644c9960f.js": "5dae95dd0b10e0d197edd60510ade0da32e46b43",
+    "/ecostas-pwa.github.io/styles.f5d630ac06784ae8.css": "cc153e4af5e81600915b44e1968c667823ad905b"
   },
   "navigationUrls": [
     {
